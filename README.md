@@ -1,9 +1,13 @@
-Certainly! Here's a basic README file template with emojis that you can use for your GitHub repository:
+AI-Powered Content Summarizer Dashboard
 
-```markdown
-# Project Title
+🚀 Brief description of project.
+A simple React application for generating summaries from text or URLs. This project utilizes React hooks, Axios for fetching content, and React Router for navigation. Users can switch between text input and URL input, fetch content, and generate summaries.
 
-🚀 Brief description of your project.
+Features
+--Text and URL Input: Choose between pasting text or entering a URL to fetch content.
+--Summarization: Generates a summary of input content, whether short or long.
+--History Sidebar: Keeps a history of inputs with their respective summaries.
+--Responsive Design: Optimized for various screen sizes.
 
 ## Table of Contents
 
