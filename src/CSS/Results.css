@@ -1,0 +1,99 @@
+.results-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #f0f0f0, #ffffff);
+  border: 1px solid #000000;
+  border-radius: 8px;
+  margin-bottom: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.radio-text {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #030303;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.radio-buttons input[type="radio"] {
+  display: none;
+}
+
+.radio-buttons label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #f8f9fa;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.radio-buttons label:hover {
+  background-color: #e2e6ea;
+}
+
+.radio-buttons input[type="radio"]:checked + label {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.content-section,
+.summary-section {
+  margin-bottom: 20px;
+}
+
+.content-box {
+  padding: 10px;
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-height: 100px;
+}
+
+.content-box p {
+  margin: 0;
+}
+
+.placeholder {
+  font-style: italic;
+  color: #999;
+}
+
+.button-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-section button:hover {
+  background: linear-gradient(to right, #0056b3, #007bff);
+}
+
+@media screen and (max-width: 768px) {
+  .results-container {
+    padding: 10px;
+  }
+
+  .button-section button {
+    font-size: 0.9rem;
+  }
+}

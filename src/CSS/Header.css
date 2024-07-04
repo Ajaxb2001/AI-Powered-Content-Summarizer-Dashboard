@@ -1,0 +1,39 @@
+/* src/CSS/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.header h1 {
+  margin: 0;
+  margin-left: 10px;
+}
+.logo{
+  height: 50px;
+  margin-left: 50px;
+}
+.header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.header nav button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

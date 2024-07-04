@@ -1,0 +1,26 @@
+/* Footer specific styles */
+.footer {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .footer a{
+    color: white;
+  }
+  .footer a:hover{
+    color: #0c0c0c;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 10px 10px;
+    }
+  }
+  
